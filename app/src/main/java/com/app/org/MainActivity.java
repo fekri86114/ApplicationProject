@@ -1,4 +1,4 @@
-package com.app.wallpaper;
+package com.app.org;
 
 import androidx.appcompat.app.AppCompatActivity;
 
