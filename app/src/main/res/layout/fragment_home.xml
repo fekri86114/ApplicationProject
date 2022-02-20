@@ -3,13 +3,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HomeFragment">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/secondaryColor"
+    tools:context=".fragments.HomeFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:gravity="center"
         android:text="@string/Home"
-        android:gravity="center"/>
+        android:textColor="@color/primaryTextColor"
+        android:layout_marginTop="500dp"
+        android:textSize="@dimen/text_size_xxlarge" />
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/image_profile"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/ic_home"/>
 
 </FrameLayout>
