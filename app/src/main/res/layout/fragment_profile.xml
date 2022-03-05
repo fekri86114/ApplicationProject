@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@color/secondaryColor"
     tools:context=".fragments.ProfileFragment">
 
@@ -12,13 +12,16 @@
         android:id="@+id/text_profile"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginTop="500dp"
         android:gravity="center"
         android:text="@string/Profile"
         android:textColor="@color/primaryTextColor"
-        android:textSize="@dimen/text_size_xxlarge"
-       />
+        android:textSize="@dimen/text_size_xxlarge" />
 
-
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/ic_profile" />
 
 
 </FrameLayout>

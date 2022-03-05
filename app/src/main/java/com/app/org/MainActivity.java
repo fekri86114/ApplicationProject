@@ -21,10 +21,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation_view);
-//        NavController navController = Navigation.findNavController(this, R.id.nav_fragment);
-//        NavigationUI.setupWithNavController(bottomNavigationView, navController);
-//
-//        navController.addOnDestinationChangedListener((navController1, navDestination, bundle) -> {
+        NavController navController = Navigation.findNavController(this, R.id.nav_fragment);
+        NavigationUI.setupWithNavController(bottomNavigationView, navController);
+
+        navController.addOnDestinationChangedListener((navController1, navDestination, bundle) -> {
 //            int id = navDestination.getId();
 //
 //            switch (id) {
@@ -41,6 +41,6 @@ public class MainActivity extends AppCompatActivity {
 //                    Toast.makeText(MainActivity.this, "ABOUT US", Toast.LENGTH_SHORT).show();
 //                    break;
 //            }
-//        });
+        });
     }
 }
