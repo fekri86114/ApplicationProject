@@ -1,27 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_orange_light"
     tools:context=".fragments.HomeFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:id="@+id/text_home"
+    <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="500dp"
-        android:gravity="center"
-        android:text="@string/Home"
-        android:textColor="@color/primaryTextColor"
-        android:textSize="@dimen/text_size_xxlarge" />
-
-    <androidx.appcompat.widget.AppCompatImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:srcCompat="@drawable/ic_home" />
-
+        android:id="@+id/recyclerview_wallpaper"
+        tools:listitem="@layout/item_recyclerview_wallpaper"
+        android:layout_marginTop="@dimen/spacing_2x"
+        android:padding="@dimen/spacing_2x"/>
 
 </FrameLayout>

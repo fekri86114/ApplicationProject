@@ -14,17 +14,21 @@
         <entry key="..\:/Users/Klap.ir/Documents/android/work_space/Rubikamp/Wallpaper/app/src/main/res/drawable/information.xml" value="0.2095" />
         <entry key="..\:/Users/Klap.ir/Documents/android/work_space/Rubikamp/Wallpaper/app/src/main/res/drawable/profile.xml" value="0.2095" />
         <entry key="..\:/Users/Klap.ir/Documents/android/work_space/Rubikamp/Wallpaper/app/src/main/res/drawable/settings.xml" value="0.2095" />
+        <entry key="..\:/Users/Klap.ir/Documents/android/work_space/Rubikamp/Wallpaper/app/src/main/res/font/fonts.xml" value="0.284375" />
         <entry key="..\:/Users/Klap.ir/Documents/android/work_space/Rubikamp/Wallpaper/app/src/main/res/layout/activity_main.xml" value="0.22540983606557377" />
         <entry key="..\:/Users/Klap.ir/Documents/android/work_space/Rubikamp/Wallpaper/app/src/main/res/layout/fragment_aboutu_s.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Klap.ir/Documents/android/work_space/Rubikamp/Wallpaper/app/src/main/res/layout/fragment_aboutus.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/Klap.ir/Documents/android/work_space/Rubikamp/Wallpaper/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Klap.ir/Documents/android/work_space/Rubikamp/Wallpaper/app/src/main/res/layout/fragment_home.xml" value="0.25" />
         <entry key="..\:/Users/Klap.ir/Documents/android/work_space/Rubikamp/Wallpaper/app/src/main/res/layout/fragment_profile.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Klap.ir/Documents/android/work_space/Rubikamp/Wallpaper/app/src/main/res/layout/fragment_setting.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Klap.ir/Documents/android/work_space/Rubikamp/Wallpaper/app/src/main/res/layout/fragment_settings.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Klap.ir/Documents/android/work_space/Rubikamp/Wallpaper/app/src/main/res/layout/header_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Klap.ir/Documents/android/work_space/Rubikamp/Wallpaper/app/src/main/res/layout/item_recyclerview_wallpaper.xml" value="0.67" />
         <entry key="..\:/Users/Klap.ir/Documents/android/work_space/Rubikamp/Wallpaper/app/src/main/res/menu/bottom_ban_menu.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Klap.ir/Documents/android/work_space/Rubikamp/Wallpaper/app/src/main/res/menu/drawer_naw_menu.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Klap.ir/Documents/android/work_space/Rubikamp/Wallpaper/app/src/main/res/menu/nav_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Klap.ir/Documents/android/work_space/Rubikamp/Wallpaper/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.241" />
+        <entry key="..\:/Users/Klap.ir/Documents/android/work_space/Rubikamp/Wallpaper/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.241" />
       </map>
     </option>
   </component>
